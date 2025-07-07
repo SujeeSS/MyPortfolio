@@ -1,0 +1,35 @@
+
+
+.typed-cursor{
+    font-size: 31px;
+} 
+
+#txt{
+    background-image: linear-gradient(to right , rgba(0, 154, 254, 255));
+    background-clip:text;
+    -webkit-text-fill-color: transparent;
+}
+.imgbg {
+    box-shadow: 0 0 5px white, 0 0 25px white;
+}
+
+
+/*...Animation..*/
+
+
+#HSW{
+    font-size: 20px;
+    opacity: 0;
+    animation: slideShow 1s ease forwards ;
+    animation-delay: 1s;
+}
+
+@keyframes slideShow{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    
+}

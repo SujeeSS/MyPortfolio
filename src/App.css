@@ -1,0 +1,28 @@
+body{
+  
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: white;
+    background: url("./resource/pfbg.png");
+}
+
+/*Hovere,Gradient */
+
+/* Hover */
+.bnt:hover {
+    /* color:white ; */
+    color: rgb(12, 24, 38, 255);
+    background-color: white;
+    box-shadow: 0 0 5px white, 0 0 25px white;
+}
+
+
+/* Gradient Letter */
+.grdntxt{
+    color:rgba(0, 154, 254, 255);
+}
+p{
+    font-size: 20px;
+}
+

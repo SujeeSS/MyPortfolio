@@ -1,0 +1,51 @@
+.imgbg {
+    box-shadow: 0 0 5px white, 0 0 25px white;
+}
+
+#ASB{
+    
+    opacity: 0;
+    animation: slideBottom 1.5s ease forwards ;
+    animation-delay: 1.5s;
+}
+
+#ASW{
+    opacity: 0;
+    animation: slideShow 1s ease forwards ;
+    animation-delay: 2s;
+}
+
+@keyframes slideBottom {
+    0%{
+        transform: translateY(70px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+    
+}
+
+@keyframes slideShow{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    
+}
+
+/* Reading ANimation */
+#paragraph span {
+      transition: all 0.7s ease;
+    }
+
+    .highlight {
+      /* background-color: #ffe0eb; */
+      color: #e91e63;
+      /* font-weight: bold; */
+      padding: 0px 1px;
+      /* border-radius: 4px; */
+    }
