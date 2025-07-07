@@ -1,7 +1,7 @@
 import React from 'react';
-import Typed from 'typed.js'
+import Typed from 'typed.js';
 import '../style/Home.css';
-import myimg from '../resource/myimg1.jpg'
+import myimg from '../resource/myimg1.jpg';
 
 
 

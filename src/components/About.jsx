@@ -1,6 +1,6 @@
 import React from 'react';
 import '../style/About.css';
-import myimg2 from '../resource/myimg22.jpg'
+import myimg2 from '../resource/myimg22.jpg';
 import Abt2 from './Abt2';
 
 export default function About() {
