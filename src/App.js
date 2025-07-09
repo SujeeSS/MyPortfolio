@@ -1,22 +1,11 @@
 import './App.css';
-import About from './components/About';
-import Contact from './components/Contact';
-import Home from './components/Home';
-import Nav from './components/Nav';
-import Projects from './components/Projects';
-import Skills from './components/Skills' ;
+import Main from './components/Main';
 
 function App() {
   return (
-    <div className="App text-light">
-      <Nav/>
-      <Home/>
-      <About/>
-      <Skills/>
-      <Projects/>
-      <Contact/>
-    
-    </div>
+   <div>
+    <Main></Main>
+   </div>
   );
 }
 
